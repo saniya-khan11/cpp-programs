@@ -28,3 +28,6 @@ int main(){
     emp2.IntroYourself();
 return 0;
 }
+/*There is a better way of constructing objects and for this we make Constructors.
+Here, in class Employee since we do not create any constructor so this class has its own default constructor.
+By creating constructor default constructor is removed.*/
