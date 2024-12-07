@@ -14,7 +14,7 @@ class AbstractEmployee{
   //implementation of AskForPromotion() function.
 class Employee : AbstractEmployee{
     /*
-    Class EMployee signing contract of AbstractEmployee that means class Employee will provid eimplementation
+    Class Employee signing contract of AbstractEmployee that means class Employee will provide implementation
     of method AskForPromotion() function
     */
     private :
