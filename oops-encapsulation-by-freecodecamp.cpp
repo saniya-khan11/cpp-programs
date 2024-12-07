@@ -40,6 +40,7 @@ class Employee{
             Company =company;
         }
         void setAge(int age){
+            if(age>20)
             Age =age;
         }
 
