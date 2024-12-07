@@ -28,9 +28,9 @@ class Employee{
 };
 
 int main(){
-    Employee emp1=("Saniya","Microsoft",20);//passing values to constructor
+    Employee emp1= Employee("Saniya","Microsoft",20);//passing values to constructor
     emp1.IntroYourself();
-    Employee emp2 =("Sanskriti","IBM",19);
+    Employee emp2 = Employee("Sanskriti","IBM",19);
     emp2.IntroYourself();
 return 0;
 }
