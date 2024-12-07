@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 class Employee{
-    public:
+    public:        /*public is access modifier.
+                    All the class members declared 
+                    under the public specifier will be available to everyone.*/
         string Name;
         string Company;
         int Age;
