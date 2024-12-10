@@ -18,13 +18,21 @@ class Employee{
         for creating constructor 3 rules must be followed :-
         1) Constructor should not have any return type.
         2) Constructor name should be same as its class.
-        3)Constructor shoul be define inside public access modifier. */
+        3)Constructor shoul be define inside public access modifier. 
+        
+        The following constructor is known as Parameterized constructor.
         Employee (string name,string company,int age){
             Name =name;
             Company =company;
             Age=age;
         }        
+*/
+//This can also be written using an initializer list for better performance and cleaner code:
 
+Employee (string name,string company,int age) : Name(name), Company(company), Age(age) {}
+
+//Both approaches work, but the initializer list is preferred for efficiency and clarity, 
+//especially when dealing with complex data types or inheritance.
 };
 
 int main(){
